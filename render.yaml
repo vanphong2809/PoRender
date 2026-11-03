@@ -5,7 +5,7 @@ services:
     autoDeploy: true
     buildCommand: npm ci
     startCommand: npm start
-    healthCheckPath: /health
+    healthCheckPath: /missing
     x-porender:
       healthTimeoutSeconds: 5
     envVars:
