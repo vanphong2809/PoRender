@@ -30,4 +30,4 @@ envVarGroups:
       - key: NODE_ENV
         value: production
       - key: APP_LABEL
-        value: initial
+        value: manual
