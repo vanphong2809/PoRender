@@ -5,7 +5,7 @@ services:
     autoDeploy: true
     buildCommand: npm ci
     startCommand: npm start
-    healthCheckPath: /missing
+    healthCheckPath: /health
     x-porender:
       healthTimeoutSeconds: 5
     envVars:
@@ -30,4 +30,4 @@ envVarGroups:
       - key: NODE_ENV
         value: production
       - key: APP_LABEL
-        value: manual
+        value: resumed
