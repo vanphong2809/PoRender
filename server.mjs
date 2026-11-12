@@ -31,3 +31,5 @@ server.listen(port, "0.0.0.0", () =>
   console.log(JSON.stringify({ event: "started", version, port })),
 );
 process.once("SIGTERM", () => server.close(() => process.exit(0)));
+
+// Admission probe v2
